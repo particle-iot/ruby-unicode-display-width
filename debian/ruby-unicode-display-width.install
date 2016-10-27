@@ -1,3 +1,2 @@
-# Examples:
-# FIXME: data/ dir found in source. Consider installing it somewhere.
-# data/* /usr/share/ruby-unicode-display-width/
+# install data/ dir in source. Consider installing it somewhere.
+data/* /usr/lib/ruby/data/

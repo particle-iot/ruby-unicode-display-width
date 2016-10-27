@@ -1,15 +1,15 @@
 Source: ruby-unicode-display-width
 Section: ruby
 Priority: optional
-Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Uploaders: <>
+Maintainer: Julien Vanier <julien@particle.io>
+Uploaders: Julien Vanier <julien@particle.io>
 Build-Depends: debhelper (>= 9~),
                gem2deb,
                rake,
                ruby-rspec
 Standards-Version: 3.9.7
-Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-unicode-display-width.git
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-unicode-display-width.git
+Vcs-Git: https://github.com/spark/ruby-unicode-display-width.git
+Vcs-Browser: https://github.com/spark/ruby-unicode-display-width.git
 Homepage: http://github.com/janlelis/unicode-display_width
 Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
