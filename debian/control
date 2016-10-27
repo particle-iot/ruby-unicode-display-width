@@ -1,0 +1,24 @@
+Source: ruby-unicode-display-width
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: <>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               rake,
+               ruby-rspec
+Standards-Version: 3.9.7
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-unicode-display-width.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-unicode-display-width.git
+Homepage: http://github.com/janlelis/unicode-display_width
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-unicode-display-width
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Determines the monospace display width of a string in Ruby.
+ [Unicode 9.0.0] Determines the monospace display width of a string using EastAsianWidth.txt, Unicode general category, and other data.
