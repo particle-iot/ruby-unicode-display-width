@@ -5,8 +5,7 @@ Maintainer: Julien Vanier <julien@particle.io>
 Uploaders: Julien Vanier <julien@particle.io>
 Build-Depends: debhelper (>= 9~),
                gem2deb,
-               rake,
-               ruby-rspec
+               rake
 Standards-Version: 3.9.7
 Vcs-Git: https://github.com/spark/ruby-unicode-display-width.git
 Vcs-Browser: https://github.com/spark/ruby-unicode-display-width.git
