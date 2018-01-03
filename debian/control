@@ -7,8 +7,8 @@ Build-Depends: debhelper (>= 9~),
                gem2deb,
                rake
 Standards-Version: 3.9.7
-Vcs-Git: https://github.com/spark/ruby-unicode-display-width.git
-Vcs-Browser: https://github.com/spark/ruby-unicode-display-width.git
+Vcs-Git: https://github.com/particle-iot/ruby-unicode-display-width.git
+Vcs-Browser: https://github.com/particle-iot/ruby-unicode-display-width.git
 Homepage: http://github.com/janlelis/unicode-display_width
 Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
